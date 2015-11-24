@@ -38,7 +38,7 @@ public class TestInsti {
 
 	@Test
 	public void test() {
-		assertEquals(3,year.isLeap(1005));	
+		assertEquals(3,year.isLeap(100));	
 	}
 	@Test
 	public void test2() {
@@ -50,7 +50,7 @@ public class TestInsti {
 	}
 	@Test
 	public void test4() {
-		assertEquals(3,year.isLeap(4000));	
+		assertEquals(3,year.isLeap(16));	
 	}
 
 
