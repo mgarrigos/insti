@@ -38,18 +38,26 @@ public class TestInsti {
 
 	@Test
 	public void test() {
-		assertEquals(true,year.isLeap(100));	
+		assertEquals(true,year.isLeap(400));	
 	}
 	@Test
 	public void test2() {
-		assertEquals(false,year.isLeap(-2000));	
+		assertEquals(true,year.isLeap(100));	
 	}
 	@Test
 	public void test3() {
-		assertEquals(false,year.isLeap(0));	
+		assertEquals(true,year.isLeap(4));	
 	}
 	@Test
 	public void test4() {
+		assertEquals(false,year.isLeap(-2000));	
+	}
+	@Test
+	public void test5() {
+		assertEquals(false,year.isLeap(0));	
+	}
+	@Test
+	public void test6() {
 		assertEquals(false,year.isLeap(16));	
 	}
 
