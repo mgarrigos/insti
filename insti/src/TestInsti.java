@@ -38,19 +38,19 @@ public class TestInsti {
 
 	@Test
 	public void test() {
-		assertEquals(3,year.isLeap(100));	
+		assertEquals(true,year.isLeap(100));	
 	}
 	@Test
 	public void test2() {
-		assertEquals(3,year.isLeap(-2000));	
+		assertEquals(false,year.isLeap(-2000));	
 	}
 	@Test
 	public void test3() {
-		assertEquals(-2,year.isLeap(0));	
+		assertEquals(false,year.isLeap(0));	
 	}
 	@Test
 	public void test4() {
-		assertEquals(3,year.isLeap(16));	
+		assertEquals(false,year.isLeap(16));	
 	}
 
 
